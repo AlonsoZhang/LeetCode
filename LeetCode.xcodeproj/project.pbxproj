@@ -10,7 +10,11 @@
 		E21C256D211308E7007D0D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C256C211308E7007D0D76 /* AppDelegate.swift */; };
 		E21C256F211308E8007D0D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21C256E211308E8007D0D76 /* Assets.xcassets */; };
 		E21C2572211308E8007D0D76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21C2570211308E8007D0D76 /* MainMenu.xib */; };
-		E21C257B21130CCA007D0D76 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C257A21130CCA007D0D76 /* ListNode.swift */; };
+		E21C257B21130CCA007D0D76 /* 2.Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C257A21130CCA007D0D76 /* 2.Add Two Numbers.swift */; };
+		E2BFA51F211C181900055950 /* 1.Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFA51E211C181900055950 /* 1.Two Sum.swift */; };
+		E2BFA521211C195100055950 /* 7.Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFA520211C195100055950 /* 7.Reverse Integer.swift */; };
+		E2BFA523211C1A8200055950 /* 9.Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFA522211C1A8200055950 /* 9.Palindrome Number.swift */; };
+		E2BFA525211C247700055950 /* 13.Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFA524211C247700055950 /* 13.Roman to Integer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +24,11 @@
 		E21C2571211308E8007D0D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E21C2573211308E8007D0D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21C2574211308E8007D0D76 /* LeetCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeetCode.entitlements; sourceTree = "<group>"; };
-		E21C257A21130CCA007D0D76 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		E21C257A21130CCA007D0D76 /* 2.Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2.Add Two Numbers.swift"; sourceTree = "<group>"; };
+		E2BFA51E211C181900055950 /* 1.Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.Two Sum.swift"; sourceTree = "<group>"; };
+		E2BFA520211C195100055950 /* 7.Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7.Reverse Integer.swift"; sourceTree = "<group>"; };
+		E2BFA522211C1A8200055950 /* 9.Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9.Palindrome Number.swift"; sourceTree = "<group>"; };
+		E2BFA524211C247700055950 /* 13.Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13.Roman to Integer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				E21C256C211308E7007D0D76 /* AppDelegate.swift */,
-				E21C257A21130CCA007D0D76 /* ListNode.swift */,
+				E2BFA51E211C181900055950 /* 1.Two Sum.swift */,
+				E21C257A21130CCA007D0D76 /* 2.Add Two Numbers.swift */,
+				E2BFA520211C195100055950 /* 7.Reverse Integer.swift */,
+				E2BFA522211C1A8200055950 /* 9.Palindrome Number.swift */,
+				E2BFA524211C247700055950 /* 13.Roman to Integer.swift */,
 				E21C256E211308E8007D0D76 /* Assets.xcassets */,
 				E21C2570211308E8007D0D76 /* MainMenu.xib */,
 				E21C2573211308E8007D0D76 /* Info.plist */,
@@ -133,8 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BFA51F211C181900055950 /* 1.Two Sum.swift in Sources */,
+				E2BFA521211C195100055950 /* 7.Reverse Integer.swift in Sources */,
+				E2BFA525211C247700055950 /* 13.Roman to Integer.swift in Sources */,
+				E2BFA523211C1A8200055950 /* 9.Palindrome Number.swift in Sources */,
 				E21C256D211308E7007D0D76 /* AppDelegate.swift in Sources */,
-				E21C257B21130CCA007D0D76 /* ListNode.swift in Sources */,
+				E21C257B21130CCA007D0D76 /* 2.Add Two Numbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
