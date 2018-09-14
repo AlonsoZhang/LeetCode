@@ -23,7 +23,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("14. Longest Common Prefix:\(longestCommonPrefix(["aaa","aab","aac"]))")
         print("20. Valid Parentheses:\(isValid("{}([])"))")
         print("21. Merge Two Sorted Lists:\(printListNode(mergeTwoLists(createListNode([2,3,5]),createListNode([1,5,6]))))")
+        var arr = [0,0,1,1,1,2,2,3,3,4]
+        print("26. Remove Duplicates from Sorted Array:\(removeDuplicates(&arr))")
+        print("\(arr)")
         print("88. Merge Sorted Array:\(mergeSortedList([1,4,7],[4,5,6,8]))")
+        print("122. Best Time to Buy and Sell Stock II:\(maxProfit([1,4,7,4,5,6,8]))")
+        print("189. Rotate Array:\(rotate(&arr, 1))")
+        print("\(arr)")
         print("344. Reverse String:\(reverseString("abcd"))")
         print("206. Reverse Linked List:\(printListNode(reverseList(createListNode([5,4,3,2,1]))))")
     }
