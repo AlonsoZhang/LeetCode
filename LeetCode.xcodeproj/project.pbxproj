@@ -23,6 +23,8 @@
 		E2BFA521211C195100055950 /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFA520211C195100055950 /* 7. Reverse Integer.swift */; };
 		E2BFA523211C1A8200055950 /* 9. Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFA522211C1A8200055950 /* 9. Palindrome Number.swift */; };
 		E2BFA525211C247700055950 /* 13. Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFA524211C247700055950 /* 13. Roman to Integer.swift */; };
+		E2CD78DB2150E74500EEB5C6 /* 217. Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD78DA2150E74500EEB5C6 /* 217. Contains Duplicate.swift */; };
+		E2CD78DD2150E9E700EEB5C6 /* 136. Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD78DC2150E9E700EEB5C6 /* 136. Single Number.swift */; };
 		E2E0702D2148AB22000AE201 /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0702C2148AB22000AE201 /* 26. Remove Duplicates from Sorted Array.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		E2BFA520211C195100055950 /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		E2BFA522211C1A8200055950 /* 9. Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. Palindrome Number.swift"; sourceTree = "<group>"; };
 		E2BFA524211C247700055950 /* 13. Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13. Roman to Integer.swift"; sourceTree = "<group>"; };
+		E2CD78DA2150E74500EEB5C6 /* 217. Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. Contains Duplicate.swift"; sourceTree = "<group>"; };
+		E2CD78DC2150E9E700EEB5C6 /* 136. Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136. Single Number.swift"; sourceTree = "<group>"; };
 		E2E0702C2148AB22000AE201 /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,8 +95,10 @@
 				E2E0702C2148AB22000AE201 /* 26. Remove Duplicates from Sorted Array.swift */,
 				E26E30B2212277C0008772B7 /* 88. Merge Sorted Array.swift */,
 				E25B32AB214A3155003A06D8 /* 122. Best Time to Buy and Sell Stock II.swift */,
+				E2CD78DC2150E9E700EEB5C6 /* 136. Single Number.swift */,
 				E25B32AD214A470E003A06D8 /* 189. Rotate Array.swift */,
 				E26E30B021227711008772B7 /* 206. Reverse Linked List.swift */,
+				E2CD78DA2150E74500EEB5C6 /* 217. Contains Duplicate.swift */,
 				E26E30AE212276AF008772B7 /* 344. Reverse String.swift */,
 				E21C256E211308E8007D0D76 /* Assets.xcassets */,
 				E21C2570211308E8007D0D76 /* MainMenu.xib */,
@@ -134,6 +140,7 @@
 				TargetAttributes = {
 					E21C2568211308E7007D0D76 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -172,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CD78DD2150E9E700EEB5C6 /* 136. Single Number.swift in Sources */,
 				E26E30AF212276AF008772B7 /* 344. Reverse String.swift in Sources */,
 				E26E30AB212269F6008772B7 /* 20. Valid Parentheses.swift in Sources */,
 				E2BFA51F211C181900055950 /* 1. Two Sum.swift in Sources */,
@@ -182,6 +190,7 @@
 				E25B32AE214A470E003A06D8 /* 189. Rotate Array.swift in Sources */,
 				E26E30A9212257B8008772B7 /* 14. Longest Common Prefix.swift in Sources */,
 				E25B32AC214A3155003A06D8 /* 122. Best Time to Buy and Sell Stock II.swift in Sources */,
+				E2CD78DB2150E74500EEB5C6 /* 217. Contains Duplicate.swift in Sources */,
 				E26E30AD212271BF008772B7 /* 21. Merge Two Sorted Lists.swift in Sources */,
 				E2BFA523211C1A8200055950 /* 9. Palindrome Number.swift in Sources */,
 				E26E30B3212277C0008772B7 /* 88. Merge Sorted Array.swift in Sources */,
@@ -332,7 +341,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhangwu.tech.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -351,7 +360,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhangwu.tech.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

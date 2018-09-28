@@ -28,10 +28,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("\(arr)")
         print("88. Merge Sorted Array:\(mergeSortedList([1,4,7],[4,5,6,8]))")
         print("122. Best Time to Buy and Sell Stock II:\(maxProfit([1,4,7,4,5,6,8]))")
+        print("136. Single Number:\(singleNumber([4,1,2,1,2]))")
         print("189. Rotate Array:\(rotate(&arr, 1))")
         print("\(arr)")
-        print("344. Reverse String:\(reverseString("abcd"))")
         print("206. Reverse Linked List:\(printListNode(reverseList(createListNode([5,4,3,2,1]))))")
+        print("217. Contains Duplicate:\(containsDuplicate([1,1,1,3,3,4,3,2,4,2]))")
+        print("344. Reverse String:\(reverseString("abcd"))")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
